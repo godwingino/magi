@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav{
+    margin-top: 2rem;;
+}
+
+.nav ul {
+    list-style:none;
+    padding: 10px;
+    
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.nav ul li {
+    margin: 10px 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.01rem;
+}
+
+.nav ul li a:hover {
+    background-color: #DAB9D8;
+    
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    gap: 10px;
+    margin-top: 40%;
+    
+}
+
+.user-pic img {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.user-name p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.logout-btn {
+    padding: 10px 50px 10px 50px;
+    border: none;
+    background-color: #800080;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.body-main{
+    width: 80%;
+    background-color: #ffffff;
+    margin-left: 18%;
+    
+}
+.flex-bodysection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.top-nav{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+}
+.right-vertical{
+    width: 20%;
+    background-color: #ffffff;
+    float: right;
+    height: 86.9vh;
+    
+}
+
+.centre-section{
+    background-color: #EEE9E9;
+    width: 80%;
+    height: auto;
+    border-radius:  50px 50px 0 0;
+}
+
+.centre-main {
+    padding: 50px;
+}
+
+.top-nav img{
+    float: right;
+    margin-right: 6rem;
+    margin-top: 1.9rem;
+}
+
+#search{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 10px none;
+    font-family: poppins;
+    
+}
+.month-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #800080;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    width: 90%;
+}
+.section1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+.centre-section{
+    margin: 0;
+    /* width: auto; */
+    
+}
+.centre-section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.month-div h2{
+    font-size: 26.35px;
+    font-weight: 300;
+}
+.month-div h1{
+    font-size: 55.79px;
+}
+.pen3div{
+    margin-top:20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    
+}
+.infodiv{
+    width: 500px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.info-div-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:start;
+}
+.infodiv h4{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.infodiv h5{
+    font-size: 4rem;
+    margin-top: 0px;
+}
+
+.pie{
+    height: 278px;
+    width: 278px;
+    background-color: #800080;
+    border-radius: 10px;
+}
+.sort{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sort1{
+    margin-left: 100px;
+}
+.sort1 input{
+margin-right: 20px;
+font-size: 1.2rem;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 5px;
+margin-bottom: 5px;
+border: 0px none;
+background-color: #800080;
+color: #fff;
+font-weight: 200;
+border-radius: 5px;
+cursor: pointer;
+}
+
+   
+   button:hover {
+    animation: shake3856 0.3s linear infinite both;
+    background-color: #DAB9D8;
+    color: #800080;
+   }
+   
+   @keyframes shake3856 {
+    0% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   
+    20% {
+     -webkit-transform: translate(-2px, 2px);
+     transform: translate(-2px, 2px);
+    }
+   
+    40% {
+     -webkit-transform: translate(-2px, -2px);
+     transform: translate(-2px, -2px);
+    }
+   
+    60% {
+     -webkit-transform: translate(2px, 2px);
+     transform: translate(2px, 2px);
+    }
+   
+    80% {
+     -webkit-transform: translate(2px, -2px);
+     transform: translate(2px, -2px);
+    }
+   
+    100% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   }
+   
+
+/*enquiries*/
+/* .enq{
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    border-radius: 10px;
+} */
+.enq {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            height: 50px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .enq .left {
+            display: flex;
+            align-items: center;
+            gap: 50px
+        }
+        .enq .left div {
+            margin-right: 20px;
+        }
+        .enq .left div:last-child {
+            margin-right: 0;
+        }
+        .enq .right {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+        }
+        .enq .right .status {
+            background-color: #fcd980;
+            border-radius: 20px;
+            padding: 5px 15px;
+            font-weight: bold;
+        }
+        .enq .title {
+            font-size: 18px;
+        }
+        .enq .budget, .enq .details {
+            font-size: 18px;
+            /* padding-right: 5%; */
+        }
+        .enq .details span {
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .enq-flex{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
